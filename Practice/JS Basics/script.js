@@ -15,7 +15,6 @@ console.log(age);
 
 var fullAge = true;
 console.log(fullAge);
-
 var fullAge = false;
 console.log(fullAge);
 
