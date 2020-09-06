@@ -7,6 +7,7 @@ In simple terms, Operators are like Functions that are written in a special way 
 
 Math Operators
 
+Lets calculate in what year John was born. 
 
 */
 
@@ -64,5 +65,21 @@ yeahMark = now - 33;
 console.log(yearJohn);
 console.log(yeahMark);
 console.log(now + 2);
+console.log(now * 2);
+console.log(now /10);
+
+/* Logical operators
+
+*/
+
+ageJohn = 28;
+ageMark = 33;
+
+yearJohn = now - ageJohn;
+yeahMarkMark = now - ageMark;
+
+var johnOlder = ageJohn > ageMark;
+console.log(johnOlder);
+
 
 /**/

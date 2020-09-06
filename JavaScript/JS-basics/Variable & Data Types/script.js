@@ -7,6 +7,7 @@ Declaring variables
 
 var firstName = 'John';
 console.log(firstName);
+
 var lastName = 'Smith';
 var age = 28;
 
@@ -38,7 +39,7 @@ Declare a variable & not assign a value to it,
 
 It prints undefined to the console.
 
-We the later go ahead && assignsomething to it.
+We the later go ahead & assign something to it.
 */
 
 var fullAge = true;
@@ -72,4 +73,4 @@ var johnmark = 'John and Mark';
 
 var function = 23;
 var delete = 23;
-var if = 23;
+var if = 23;*/
