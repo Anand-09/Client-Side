@@ -1,76 +1,44 @@
-/* Variable - It is the container in which we can store a value
+/* ***** Truthy and Falsy values and Equality operators *****
 
-Piece of mem in computer in which John string is stored
+*** Falsy values :- 
 
-Declaring variables
-*/
+- Falsy value is a value that is considered false when evaluated in an If Else statement condition.
 
-var firstName = 'John';
-console.log(firstName);
+And the values that are Falsy in JS are :-
 
-var lastName = 'Smith';
-var age = 28;
+undefined,
+null,
+0,
+''; Empty strings & 
+NaN : not a number
 
+All of these 5 different values here will be converted to False when evaluated in a True False condition.
+
+That's why we call them falsy,
+
+They are not exactly false but they'll be turn out to be False when evaluated in a If Else condition.
+
+*** Truthy values :-
+
+- All the values which are True when evaluated in an IF Else statement condition.
+
+So, basically
+
+its all the values that are not Falsy.
+
+NOT falsy values
+
+// truthy values : NOT falsy values
+// truthy values : undefined, null, 0, '', NaN
 /*
-Data types :- 5
 
-Primitive data type just means that its not for objects, unlike most things in JS, so they are just simple & primitive non-object data types.
-
-number - floating point numbers they always have decimals e.g. 5.0
-strings - sequence of characters, used just for text   
-boolean - logical DT, that can only take one of the logical value, its either true or false
-undefined - DT of a variable that does not have avalue yet, its automaticallty assigned to a variable that doesn't have a value yet, value that we've not assigned of defined, means non existent.
-null - also means non existent, but slighly specfic
-
-JS has a feature called dynamic typing, we do not have to manually define a DT.
-
-It saves coding time, but difficult to find bugs.
-
-Its best practice to give meaningful names to variables,
-
-Camel case notation is used to separate two words with capital letter.
-
-In JS, it is a Convention to use the camel case notation.
-
-start with small letter in the beginning & capital letter with the second word.
-
-
-Declare a variable & not assign a value to it,
-
-It prints undefined to the console.
-
-We the later go ahead & assign something to it.
 */
 
-var fullAge = true;
-console.log(fullAge);
-
-var job;
-console.log(job);
-
-job = 'Teacher';
-console.log(job);
-
-/*  Variable naming rules
-
-Naming rules in declaring a variable :-
 
 
-Variables cannot start with numbers or symbols except for the $ & _
-
-Same for using symbol in the middle of a variable name. Use camel case notation.
-
-We cannot use reserved JS keywords as Variable names, eg. function, delete
-
-Use own made up names.
+/*  
 */
 
 
 /*
-var __3years = 3;
-
-var johnmark = 'John and Mark';
-
-var function = 23;
-var delete = 23;
-var if = 23;*/
+*/
