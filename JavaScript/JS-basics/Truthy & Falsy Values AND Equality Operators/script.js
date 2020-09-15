@@ -1,49 +1,29 @@
+/*** 
+False becomes true if we use !(NOT);
 
-/*
-Basic Operators
+OR ||
 
-They can be simple math operators like plus or minus & a couple other JS operators
+AND &&
 
-In simple terms, Operators are like Functions that are written in a special way in JS.
+a || b (if any value is true it'll enter the loop),
+a && b (if any value false then will not execute),
 
-// Logical Operators - compare the age of Mark & John
+(a && b) || (c || d),
+E.g a = arunHt > varunHt (false)
 
-
-*/ 
-//Logical operator
-
-//Creating boolean variable with  Logical operator
-
-//var year, yearJohn, yearMark;
-//now = 2020;
-ageJohn = 28;
-ageMark = 33;
-
-//yearJohn = now - 28;
-//yearMark = now - 33;
-
-var johnOlder = ageJohn > ageMark;
-
-console.log(johnOlder);
-
-ageJohn = 28;
-ageMark = 33;
-
-//yearJohn = now - 28;
-//yearMark = now - 33;
-
-var johnOlder = ageJohn < ageMark;
-
-console.log(johnOlder);
-
-// typeof operator
+(a && b) || c || d,
 
 
-console.log(typeof johnOlder);
-console.log(typeof ageJohn);
-console.log(typeof 'Mark is older than John');
-var x;
-console.log(typeof x);
+*/
+
+var height;
+height = 0;
+
+if (height) {
+    console.log('coming into this bracket because if condition is getting satisfied as height is undefined');
+} else {
+    console.log('not satisfied');
+}
 
 
 

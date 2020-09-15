@@ -35,7 +35,7 @@ var AvgTeamD = (G1teamD+G2teamD+G3teamD)/3;
 
 var WinnerTeamAvg = null;
 var WinnerTeamName =  null;
-debugger
+
 if (AvgTeamA > AvgTeamB) { // if is independant
      WinnerTeamAvg = AvgTeamA;
      WinnerTeamName = teamA;
